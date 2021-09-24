@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .container{
@@ -55,30 +55,6 @@ ul{
     color: black;
 }
 
-.purple{
-    background-color: #502B5A;
-    width: 33.3%;
-}
-
-.brick-red{
-    background-color: #B6590D;
-    width: 33.3%;
-}
-
-.light-blue{
-    background-color: #F9F9FE;
-    width: 33.3%;
-    color: black;
-}
-
-.light-blue p{
-    color: black;
-}
-
-.red{
-    background-color: #B54C00;
-    width: 33.3%;
-}
 
 .pale-orange{
     background-color: #E4A679;
@@ -90,13 +66,14 @@ ul{
     width: 33.3%;
 }
 
-.color-container-1, .color-container-2 {
+.color-container {
     display: flex;
     flex-direction: row; 
+    width: 100%;
     
 }
 
-.color-container-1{
+.color-container{
     padding-bottom: 20px;
 }
 
@@ -113,30 +90,34 @@ ul{
 
 /* Fonts */
 
-.roboto{
+.mulish-bold{
     margin-bottom: 10px;
 }
 
-.roboto h3{
-    font-family: 'Roboto Condensed', sans-serif;
+.mulish-bold h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
     text-decoration: underline;
     padding-bottom: 10px;
 }
 
-.roboto p{
-    font-family: 'Roboto Condensed', sans-serif;
+.mulish-bold p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
     text-decoration: none;
     text-align: left; 
 }
 
-.cabin h3{
-    font-family: 'Cabin', sans-serif;
+.mulish-regular h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
     text-decoration: underline;
     padding-bottom: 10px;
 }
 
-.cabin p{
-    font-family: 'Cabin', sans-serif;
+.mulish-regular p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
     text-decoration: none;
     text-align: left; 
 }
